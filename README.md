@@ -1,131 +1,70 @@
-# React Lab 25
+# Getting Started with Create React App
 
-A curated collection of **25 React projects** showcasing fundamentals, advanced hooks, UI patterns, and a full-stack application.  
-Each project is designed as a practical lab to strengthen React skills and provide reusable reference code.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 📋 Project List
+In the project directory, you can run:
 
-### 🎛️ Fundamentals
+### `npm start`
 
-#### Accordion
-Covers: `useState`, conditional rendering, array mapping
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#### Random Color Generator
-Covers: `useState`, event handling, dynamic styling
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-#### Star Rating Component
-Covers: `useState`, props, reusable components
+### `npm test`
 
-#### Image Slider / Carousel
-Covers: `useState`, `useEffect`, timers, list navigation
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Load More Button
-Covers: `useState`, list rendering, pagination logic
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 🗂️ UI Patterns
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-#### Tree View Navigation
-Covers: recursive components, props, state drilling
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### Tabs Component
-Covers: `useState`, component composition
+### `npm run eject`
 
-#### Modal Popup
-Covers: portals, conditional rendering, accessibility basics
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-#### Scroll Indicator
-Covers: `useState`, `useEffect`, scroll event listeners
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Dark/Light Mode Toggle
-Covers: `useState`, `useEffect`, theme persistence with `localStorage`
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### 🔍 API & Data
+## Learn More
 
-#### GitHub Profile Finder
-Covers: `fetch` API, `useEffect`, async state handling
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-#### Search Autocomplete
-Covers: `useState`, `useEffect`, debouncing input
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-#### Weather App
-Covers: `fetch` API, error handling, conditional rendering
+### Code Splitting
 
-#### Food Recipe App
-Covers: API calls, search filtering, reusable cards
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-### 🎮 Interactive Apps
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-#### Tic Tac Toe Game
-Covers: `useState`, immutability, game logic
+### Making a Progressive Web App
 
-#### Drag & Drop To-Do
-Covers: `useState`, `useRef`, drag-and-drop events
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-#### Shopping Cart App
-Covers: Context API, reducers, prop drilling alternative
+### Advanced Configuration
 
-#### Expense Tracker
-Covers: `useState`, `useReducer`, controlled forms
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
----
+### Deployment
 
-### ⚡ Advanced React
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-#### Feature Flag Implementation
-Covers: Context API, conditional rendering, config-driven UI
+### `npm run build` fails to minify
 
-#### Scroll To Top/Bottom
-Covers: `useRef`, scroll APIs, event listeners
-
-#### Scroll To Section
-Covers: `useRef`, smooth scrolling, DOM interaction
-
-#### useFetch Hook
-Covers: custom hooks, async/await, data fetching
-
-#### useOnClickOutside Hook
-Covers: custom hooks, `useRef`, event listeners
-
-#### useWindowResize Hook
-Covers: custom hooks, performance optimization, event cleanup
-
----
-
-### 🏗️ Full App
-
-#### MERN Blog App
-Covers: Full-stack React + Node.js, authentication, CRUD, React Router, Context API
-
----
-
-## 🛠️ Tech Stack
-- **React 18+**  
-- React Router  
-- Context API & Hooks  
-- TailwindCSS / CSS Modules  
-- Node.js (for the full-stack project)  
-
----
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/lawalstacks/react-lab-25.git
-
-# Navigate into the repo
-cd react-lab-25
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
